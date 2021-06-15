@@ -1,3 +1,5 @@
+import ThemeButton from '../ThemeButton';
+
 const Navbar = () => (
   <nav className="flex justify-between items-center md:px-12 md:py-8">
     <svg width="253" height="44" viewBox="0 0 253 44" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -6,7 +8,9 @@ const Navbar = () => (
       <rect width="16" height="23" transform="matrix(1 0 0 -1 22 27)" fill="#0D75FF" />
       <rect y="25" width="38" height="2" fill="white" />
     </svg>
-    <p>Theme Switcher</p>
+    <div>
+      <ThemeButton />
+    </div>
   </nav>
 );
 
